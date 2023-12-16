@@ -211,6 +211,7 @@ export const AppLayout = () => {
                 open={openLoginDialog}
                 handleSubmit={handleLoginSubmit}
                 handleClose={handleLoginClose}
+                handleLogout={handleLogout}
             />
         </>
     )
